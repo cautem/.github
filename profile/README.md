@@ -1,7 +1,7 @@
-<h1 align="center">Cauteum</h1>
+<h1 align="center">cautem</h1>
 
 <p align="center">
-  <img src="./cautem-org-avatar.png" alt="Cauteum logo" width="144">
+  <img src="./cautem-org-avatar.png" alt="cautem logo" width="144">
 </p>
 
 <p align="center">
@@ -10,67 +10,67 @@
 </p>
 
 <p align="center">
-  <a href="https://cautem.github.io/cauteum-haven.github.io/"><img src="https://img.shields.io/badge/docs-cauteum--haven.github.io-3F51B5?logo=materialformkdocs&logoColor=white" alt="Documentation"></a>
+  <a href="https://cautem.github.io/sandbox.dev/"><img src="https://img.shields.io/badge/docs-cautem--haven.github.io-3F51B5?logo=materialformkdocs&logoColor=white" alt="Documentation"></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
-  <a href="https://github.com/cautem/cauteum-cli"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
-  <a href="https://github.com/cautem/cauteum-cli/releases"><img src="https://img.shields.io/badge/status-beta-orange" alt="beta"></a>
+  <a href="https://github.com/cautem/cautem-cli"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
+  <a href="https://github.com/cautem/cautem-cli/releases"><img src="https://img.shields.io/badge/status-beta-orange" alt="beta"></a>
 </p>
 
 ---
 
 ## Documentation
 
-**[cautem.github.io](https://cautem.github.io/cauteum-haven.github.io/)** — shared docs for all modules (EN / RU).
+**[cautem.github.io](https://cautem.github.io/sandbox.dev/)** — shared docs for all modules (EN / RU).
 
 | | |
 |--|--|
-| English | [Home](https://cautem.github.io/cauteum-haven.github.io/) · [Get started](https://cautem.github.io/cauteum-haven.github.io/get-started/) |
-| Русский | [Главная](https://cautem.github.io/cauteum-haven.github.io/ru/) · [Быстрый старт](https://cautem.github.io/cauteum-haven.github.io/ru/get-started/) |
-| Docker | [EN](https://cautem.github.io/cauteum-haven.github.io/providers/docker/) · [RU](https://cautem.github.io/cauteum-haven.github.io/ru/providers/docker/) |
-| Podman | [EN](https://cautem.github.io/cauteum-haven.github.io/providers/podman/) · [RU](https://cautem.github.io/cauteum-haven.github.io/ru/providers/podman/) |
+| English | [Home](https://cautem.github.io/sandbox.dev/) · [Get started](https://cautem.github.io/sandbox.dev/get-started/) |
+| Русский | [Главная](https://cautem.github.io/sandbox.dev/ru/) · [Быстрый старт](https://cautem.github.io/sandbox.dev/ru/get-started/) |
+| Docker | [EN](https://cautem.github.io/sandbox.dev/providers/docker/) · [RU](https://cautem.github.io/sandbox.dev/ru/providers/docker/) |
+| Podman | [EN](https://cautem.github.io/sandbox.dev/providers/podman/) · [RU](https://cautem.github.io/sandbox.dev/ru/providers/podman/) |
 
-Source: [cautem.github.io](https://github.com/cautem/cauteum-haven.github.io) (Material for MkDocs).
+Source: [cautem.github.io](https://github.com/cautem/sandbox.dev) (Material for MkDocs).
 
 ---
 
-## Cauteum
+## cautem
 
-**Cauteum** runs coding agents inside hardened Docker sandboxes. YAML policy controls filesystem and egress; an egress sidecar enforces it; an optional gateway provides registry, provider compose, and relayed exec.
+**cautem** runs coding agents inside hardened Docker sandboxes. YAML policy controls filesystem and egress; an egress sidecar enforces it; an optional gateway provides registry, provider compose, and relayed exec.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cautem/cauteum-cli/main/install.sh | bash
-cauteum sandbox create --name demo --workspace . --policy policies/default.yaml
+curl -fsSL https://raw.githubusercontent.com/cautem/cautem-cli/main/install.sh | bash
+cautem sandbox create --name demo --workspace . --policy policies/default.yaml
 ```
 
 ### Repositories
 
 | Repo | Role |
 |------|------|
-| **[cautem.github.io](https://github.com/cautem/cauteum-haven.github.io)** | Shared docs → [site](https://cautem.github.io/cauteum-haven.github.io/) |
-| [cauteum-cli](https://github.com/cautem/cauteum-cli) | `cauteum` CLI, policies, agent images |
-| [cauteum-core](https://github.com/cautem/cauteum-core) | Policy schema + egress engine |
-| [cauteum-providers](https://github.com/cautem/cauteum-providers) | Provider profiles + compose |
-| [cauteum-proxy](https://github.com/cautem/cauteum-proxy) | Egress sidecar + `policy.local` |
-| [cauteum-driver](https://github.com/cautem/cauteum-driver) | Docker / Podman compute drivers |
-| [cauteum-runtime](https://github.com/cautem/cauteum-runtime) | Sandbox glue, `cauteum-init`, images |
-| [cauteum-gateway](https://github.com/cautem/cauteum-gateway) | RPC control-plane daemon |
-| [cauteum-display](https://github.com/cautem/cauteum-display) | noVNC helpers |
-| [cauteum-sdk](https://github.com/cautem/cauteum-sdk) | Go client |
-| [cauteum-python](https://github.com/cautem/cauteum-python) | Python client |
+| **[cautem.github.io](https://github.com/cautem/sandbox.dev)** | Shared docs → [site](https://cautem.github.io/sandbox.dev/) |
+| [cautem-cli](https://github.com/cautem/cautem-cli) | `cautem` CLI, policies, agent images |
+| [cautem-core](https://github.com/cautem/cautem-core) | Policy schema + egress engine |
+| [cautem-providers](https://github.com/cautem/cautem-providers) | Provider profiles + compose |
+| [cautem-proxy](https://github.com/cautem/cautem-proxy) | Egress sidecar + `policy.local` |
+| [cautem-driver](https://github.com/cautem/cautem-driver) | Docker / Podman compute drivers |
+| [cautem-runtime](https://github.com/cautem/cautem-runtime) | Sandbox glue, `cautem-init`, images |
+| [cautem-gateway](https://github.com/cautem/cautem-gateway) | RPC control-plane daemon |
+| [cautem-display](https://github.com/cautem/cautem-display) | noVNC helpers |
+| [cautem-sdk](https://github.com/cautem/cautem-sdk) | Go client |
+| [cautem-python](https://github.com/cautem/cautem-python) | Python client |
 | [slogx](https://github.com/cautem/slogx) | Structured slog helpers |
 
 ### Images (GHCR)
 
 ```text
-ghcr.io/cautem/cauteum/gateway
-ghcr.io/cautem/cauteum/sandboxes/{base,gui,gpu,cursor,claude,codex}
+ghcr.io/cautem/cautem/gateway
+ghcr.io/cautem/cautem/sandboxes/{base,gui,gpu,cursor,claude,codex}
 ```
 
 ### Design
 
 - **Multi-repo** — each module is its own git remote (not a monorepo)
 - **Shared docs** — one Material for MkDocs site for all modules
-- **Default deny** — L4/L7 egress allowlists in `cauteum-core`
-- **OpenShell-shaped** — host-gateway alias `host.cauteum.internal`, provider attach, BYOC
+- **Default deny** — L4/L7 egress allowlists in `cautem-core`
+- **OpenShell-shaped** — host-gateway alias `host.cautem.internal`, provider attach, BYOC
 
-Apache-2.0 © Cauteum
+Apache-2.0 © cautem
