@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://cautem.github.io/sandbox.dev/"><img src="https://img.shields.io/badge/docs-cautem--haven.github.io-3F51B5?logo=materialformkdocs&logoColor=white" alt="Documentation"></a>
+  <a href="https://cautem.github.io/sandbox.dev/"><img src="https://img.shields.io/badge/docs-cautem.github.io-3F51B5?logo=materialformkdocs&logoColor=white" alt="Documentation"></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
   <a href="https://github.com/cautem/cautem-cli"><img src="https://img.shields.io/badge/Go-1.27+-00ADD8?logo=go" alt="Go Version"></a>
   <a href="https://github.com/cautem/cautem-cli/releases"><img src="https://img.shields.io/badge/status-beta-orange" alt="beta"></a>
