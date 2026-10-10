@@ -62,8 +62,8 @@ cauteum sandbox create --name demo --workspace . --policy policies/default.yaml
 ### Images (GHCR)
 
 ```text
-ghcr.io/cauteum/cauteum/gateway
-ghcr.io/cauteum/cauteum/sandboxes/{base,gui,gpu,cursor,claude,codex}
+ghcr.io/cauteum-haven/cauteum/gateway
+ghcr.io/cauteum-haven/cauteum/sandboxes/{base,gui,gpu,cursor,claude,codex}
 ```
 
 ### Design
