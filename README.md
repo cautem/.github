@@ -1,5 +1,5 @@
-# cauteum/.github
+# cauteum-haven/.github
 
-Organization profile and shared GitHub metadata for [cauteum](https://github.com/cauteum).
+Organization profile and shared GitHub metadata for [Cauteum Haven](https://github.com/cauteum-haven).
 
-The profile README rendered on the org home lives at [`profile/README.md`](./profile/README.md).
+The profile README rendered on the organization home lives at [`profile/README.md`](./profile/README.md).
